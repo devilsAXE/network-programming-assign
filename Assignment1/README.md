@@ -1,4 +1,4 @@
-<h2> Part 1 </h1> 
+<h2> Part 1 : Custom Shell </h1> 
 <p align="justify" > You are required to build a bash-like shell for the following requirements. Your program should not use temporary files, popen(), system() library calls. It should only use system-call wrappers from the library. <i> It should not use sh or bash shells to execute a command. </i></p>
 <p>
 <ul>
@@ -31,7 +31,7 @@ remapped fd.</li>
 </ul>
 </p>
 
-<h2>Part 2</h2>
+<h2>Part 2 : Cluster Shell</h2>
 <p>Cluster Shell. In this problem you are required to extend the shell features to a cluster of machines,
 each identified by a name. The name to ip mapping is available in a config file, whose path is specified at
 the start of the shell. Assume that N nodes in the cluster are named as <i>n1, n2 ..... nN</i>.</p>
